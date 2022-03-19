@@ -16,7 +16,7 @@ URL:		http://hackage.haskell.org/package/http-client
 BuildRequires:	ghc >= 6.12.3
 BuildRequires:	ghc-cookie
 BuildRequires:	ghc-filepath
-BuildRequires:	ghc-http-types >= 0.8)
+BuildRequires:	ghc-http-types >= 0.8
 BuildRequires:	ghc-memory >= 0.7
 BuildRequires:	ghc-mime-types
 BuildRequires:	ghc-network >= 2.4
@@ -29,7 +29,7 @@ BuildRequires:	ghc-streaming-commons >= 0.1.0.2
 BuildRequires:	ghc-prof
 BuildRequires:	ghc-cookie-prof
 BuildRequires:	ghc-filepath-prof
-BuildRequires:	ghc-http-types-prof >= 0.8)
+BuildRequires:	ghc-http-types-prof >= 0.8
 BuildRequires:	ghc-memory-prof >= 0.7
 BuildRequires:	ghc-mime-types-prof
 BuildRequires:	ghc-network-prof >= 2.4
@@ -44,7 +44,7 @@ BuildRequires:	rpmbuild(macros) >= 1.608
 Requires(post,postun):	/usr/bin/ghc-pkg
 Requires:	ghc-cookie
 Requires:	ghc-filepath
-Requires:	ghc-http-types >= 0.8)
+Requires:	ghc-http-types >= 0.8
 Requires:	ghc-memory >= 0.7
 Requires:	ghc-mime-types
 Requires:	ghc-network >= 2.4
@@ -72,7 +72,7 @@ Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	ghc-cookie-prof
 Requires:	ghc-filepath-prof
-Requires:	ghc-http-types-prof >= 0.8)
+Requires:	ghc-http-types-prof >= 0.8
 Requires:	ghc-memory-prof >= 0.7
 Requires:	ghc-mime-types-prof
 Requires:	ghc-network-prof >= 2.4
